@@ -3,7 +3,7 @@ import type { AppProps } from 'next/app'
 import { useEffect } from 'react'
 import { Karla } from '@next/font/google'
 import { GoogleAnalytics } from 'nextjs-google-analytics'
-import { Analytics } from '@vercel/analytics'
+import { Analytics } from '@vercel/analytics/react'
 
 const karla = Karla({
   subsets: ['latin'],
