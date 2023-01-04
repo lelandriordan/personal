@@ -5,7 +5,7 @@ import * as THREE from 'three'
 import WAVES from 'vanta/dist/vanta.waves.min'
 import { Ubuntu } from '@next/font/google'
 
-import ProfilePic from '../public/Leland.jpeg'
+import ProfilePic from '../public/Leland.jpg'
 import {Twitter, GitHub, Linkedin } from 'react-feather'
 
 const ubuntu = Ubuntu({
