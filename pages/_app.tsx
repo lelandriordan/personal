@@ -2,6 +2,7 @@ import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import { useEffect } from 'react'
 import { Karla } from '@next/font/google'
+import { GoogleAnalytics } from 'nextjs-google-analytics'
 
 const karla = Karla({
   subsets: ['latin'],
@@ -23,6 +24,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
   return (
     <div className={`${karla.variable} font-sans`}>
+      <GoogleAnalytics trackPageViews />
       <Component {...pageProps} />
     </div>
   )
