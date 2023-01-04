@@ -15,7 +15,7 @@ const ubuntu = Ubuntu({
 })
 
 export default function Home() {
-  const [vantaEffect, setVantaEffect] = useState(null)
+  const [vantaEffect, setVantaEffect] = useState<any>(null)
   const vantaRef = useRef(null)
 
   useEffect(() => {
