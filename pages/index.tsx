@@ -53,14 +53,18 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="bg-slate-900 text-slate-100 h-screen w-screen flex flex-col items-center justify-center" ref={vantaRef}>
+      <main className="bg-slate-900 text-slate-100 h-full sm:h-screen w-screen flex flex-col items-center justify-center" ref={vantaRef}>
         <h1 className="hidden text-xl text-slate-100 p-0">Leland Riordan</h1>
         <section
           className="
           bg-slate-800/80
           p-8
           flex
-          flex-row
+          flex-col
+          m-4
+          items-center
+          lg:items-start
+          lg:flex-row
           gap-8
           border-box
           max-w-[800px]
@@ -74,18 +78,18 @@ export default function Home() {
             alt="Leland Riordan Profile Picture"
             className="w-[200px] h-[200px] rounded-full shadow-xl flex"
           />
-          <div className="flex flex-col gap-4">
-            <h2 className={`${ubuntu.variable} font-serif text-5xl font-bold`}>Hi, I&apos;m Leland.</h2>
+          <div className="flex flex-col gap-4 items-center justify-center lg:items-start lg:justify-start">
+            <h2 className={`${ubuntu.variable} font-serif text-4xl sm:text-5xl font-bold`}>Hi, I&apos;m Leland.</h2>
             <p className="text-slate-400 text-lg">I am a New York based front end development expert with 12+ years of experience crafting delightful user experiences and 8+ years of experience managing teams and products.</p>
             {/* <p className="text-slate-400 text-lg">I am a co-founder of Upside Software, a full service software consultancy that delivers elite crypto, web3 and trading products.</p> */}
             <p className="text-slate-400 text-lg">Previously, I led UI/UX design and development at Jump Trading&apos;s Crypto Growth Lab. Before that, I served as the Head of Product Design for Citi Velocity and Digital Solutions. In this role, I led a ground up redesign of one of Wall Street&apos;s biggest analytics and content platforms and helped launch a new custom React design system across all products at Citi.</p>
             
-            <ul className="flex gap-4 text-indigo-300 pt-2">
+            <ul className="flex gap-4 text-indigo-300 pt-2 items-center justify-center lg:items-start lg:justify-start">
               <li>
                 <a
                   href="mailto:leland@lelandriordan.com"
                   title="Email Me"
-                  className='inline-flex items-center px-6 py-3 bg-slate-700 rounded-full text-indigo-300 hover:bg-slate-600 hover:text-indigo-200'
+                  className="inline-flex items-center px-4 py-2 sm:px-6 sm:py-3 bg-slate-700 rounded-full text-indigo-300 hover:bg-slate-600 hover:text-indigo-200"
                 >
                   Get In Touch
                 </a>
@@ -96,7 +100,7 @@ export default function Home() {
                   rel="noreferrer"
                   target="_blank"
                   title="Github"
-                  className='inline-flex items-center p-3 bg-slate-700 rounded-full text-indigo-300 hover:bg-slate-600 hover:text-indigo-200'
+                  className="inline-flex items-center p-2 sm:p-3 bg-slate-700 rounded-full text-indigo-300 hover:bg-slate-600 hover:text-indigo-200"
                 >
                   <GitHub  />
                 </a>
@@ -107,7 +111,7 @@ export default function Home() {
                   rel="noreferrer"
                   target="_blank"
                   title="LinkedIn"
-                  className='inline-flex items-center p-3 bg-slate-700 rounded-full text-indigo-300 hover:bg-slate-600 hover:text-indigo-200'
+                  className="inline-flex items-center p-2 sm:p-3 bg-slate-700 rounded-full text-indigo-300 hover:bg-slate-600 hover:text-indigo-200"
                 >
                   <Linkedin  />
                 </a>
@@ -118,7 +122,7 @@ export default function Home() {
                   rel="noreferrer"
                   target="_blank"
                   title="Twitter"
-                  className='inline-flex items-center p-3 bg-slate-700 rounded-full text-indigo-300 hover:bg-slate-600 hover:text-indigo-200'
+                  className="inline-flex items-center p-2 sm:p-3 bg-slate-700 rounded-full text-indigo-300 hover:bg-slate-600 hover:text-indigo-200"
                 >
                   <Twitter  />
                 </a>
