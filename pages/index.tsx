@@ -5,7 +5,7 @@ import * as THREE from 'three'
 import WAVES from 'vanta/dist/vanta.waves.min'
 import { Ubuntu } from '@next/font/google'
 
-import ProfilePic from '../public/Leland.jpg'
+import ProfilePic from '../public/leland.jpg'
 import {Twitter, GitHub, Linkedin } from 'react-feather'
 
 const ubuntu = Ubuntu({
@@ -76,7 +76,7 @@ export default function Home() {
           />
           <div className="flex flex-col gap-4">
             <h2 className={`${ubuntu.variable} font-serif text-5xl font-bold`}>Hi, I&apos;m Leland.</h2>
-            <p className="text-slate-400 text-lg">I am a front end development expert with 10+ years of experience launching products with delightful user experiences and 7+ years of experience managing teams.</p>
+            <p className="text-slate-400 text-lg">I am a New York based front end development expert with 12+ years of experience crafting delightful user experiences and 8+ years of experience managing teams and products.</p>
             {/* <p className="text-slate-400 text-lg">I am a co-founder of Upside Software, a full service software consultancy that delivers elite crypto, web3 and trading products.</p> */}
             <p className="text-slate-400 text-lg">Previously, I led UI/UX design and development at Jump Trading&apos;s Crypto Growth Lab and before that served as the Head of Product Design for Citi Velocity and Digital Solutions.</p>
             
