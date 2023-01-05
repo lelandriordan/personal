@@ -48,10 +48,24 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Leland Riordan - Front End Expert</title>
-        <meta name="description" content="I am a front end development expert with 10+ years of experience crafting delightful user experiences and 7+ years of experience managing teams and launching products." />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* Primary Meta Tags */}
+        <title>Leland Riordan - Front End Engineer & User Experience Expert</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="title" content="Leland Riordan - Front End Engineer & User Experience Expert" />
+        <meta name="description" content="I am a New York based front end development expert with 12+ years of experience crafting delightful user experiences and 8+ years of experience managing teams and products." />
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.lelandriordan.com/" />
+        <meta property="og:title" content="Leland Riordan - Front End Engineer & User Experience Expert" />
+        <meta property="og:description" content="I am a New York based front end development expert with 12+ years of experience crafting delightful user experiences and 8+ years of experience managing teams and products." />
+        <meta property="og:image" content="/public/leland.jpg" />
+        {/* Twitter */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.lelandriordan.com/" />
+        <meta property="twitter:title" content="Leland Riordan - Front End Engineer & User Experience Expert" />
+        <meta property="twitter:description" content="I am a New York based front end development expert with 12+ years of experience crafting delightful user experiences and 8+ years of experience managing teams and products." />
+        <meta property="twitter:image" content="/public/leland.jpg" />
       </Head>
       <main className="bg-slate-900 text-slate-100 h-full sm:h-screen w-screen flex flex-col items-center justify-center" ref={vantaRef}>
         <h1 className="hidden text-xl text-slate-100 p-0">Leland Riordan</h1>
