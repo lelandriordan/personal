@@ -94,7 +94,7 @@ export default function Home() {
           />
           <div className="flex flex-col gap-4 items-center justify-center lg:items-start lg:justify-start">
             <h2 className={`${ubuntu.variable} font-serif text-4xl sm:text-5xl font-bold`}>Hi, I&apos;m Leland.</h2>
-            <p className="text-slate-400 text-lg">I am a New York based front end development expert with 12+ years of experience crafting delightful user experiences and 8+ years of experience managing teams and products.</p>
+            <p className="text-slate-400 text-lg">I am a New York based product expert with 12+ years of experience designing, developing and delivering delightful apps with refined user experiences and 8+ years in leadership roles managing teams and products.</p>
             {/* <p className="text-slate-400 text-lg">I am a co-founder of Upside Software, a full service software consultancy that delivers elite crypto, web3 and trading products.</p> */}
             <p className="text-slate-400 text-lg">Previously, I led UI/UX design and development at Jump Trading&apos;s Crypto Growth Lab. Before that, I served as the Head of Product Design for Citi Velocity and Digital Solutions. In this role, I led a ground up redesign of one of Wall Street&apos;s biggest analytics and content platforms and helped launch a new custom React design system across all products at Citi.</p>
             
